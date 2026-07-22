@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUNA — Your Personal Wellness Companion</title>
+<meta name="description" content="LUNA is a beautifully private cycle tracking and wellness app. Track your cycle, understand your body, share care with a partner, and keep every detail encrypted and yours alone.">
+<meta name="keywords" content="LUNA app, period tracker, cycle tracking app, wellness companion, women's health app, partner mode period tracker">
+<meta name="author" content="LUNA">
+<link rel="canonical" href="https://luna.tkwebsolutions.in/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="LUNA — Your Personal Wellness Companion">
+<meta property="og:description" content="A calm, private space to track your cycle, understand your body, and share care with someone you trust.">
+<meta property="og:url" content="https://luna.tkwebsolutions.in/">
+<meta property="og:image" content="https://luna.tkwebsolutions.in/assets/icons/icon-512.png">
+<meta property="og:site_name" content="LUNA">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LUNA — Your Personal Wellness Companion">
+<meta name="twitter:description" content="A calm, private space to track your cycle, understand your body, and share care with someone you trust.">
+<meta name="twitter:image" content="https://luna.tkwebsolutions.in/assets/icons/icon-512.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon.png">
+<link rel="apple-touch-icon" href="assets/icons/icon-180.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0F1021">
+
+<link rel="stylesheet" href="css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "LUNA",
+  "operatingSystem": "ANDROID, IOS",
+  "applicationCategory": "HealthApplication",
+  "description": "LUNA is a private, beautifully designed cycle tracking and wellness companion app with partner mode and end-to-end encrypted health data.",
+  "url": "https://luna.tkwebsolutions.in/",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "ratingCount": "2140"
+  }
+}
+</script>
+</head>
+<body>
+
+<div class="aurora"></div>
+<div class="noise"></div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="assets/images/app-icon.png" alt="LUNA logo">
+      LUNA
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" class="active">Home</a>
+      <a href="privacy-policy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+      <a href="delete-account.html">Delete Account</a>
+      <a href="#download" class="btn btn-primary btn-sm">Download</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" aria-label="Toggle dark and light theme" aria-pressed="false">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </button>
+      <a href="#download" class="btn btn-primary btn-sm desktop-only">Get the App</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-copy" data-reveal>
+        <span class="eyebrow">Cycle &amp; wellness, reimagined</span>
+        <h1>Your body keeps<br><span class="text-gradient">a quiet rhythm.</span><br>LUNA helps you hear it.</h1>
+        <p class="lede">Track your cycle, mood and symptoms in a space built for calm — not clutter. Every entry is encrypted, every insight is yours, and sharing care with a partner is entirely your choice.</p>
+        <div class="hero-ctas">
+          <a href="#download" class="btn btn-primary">Download LUNA — Free</a>
+          <a href="#features" class="btn btn-ghost">See how it works</a>
+        </div>
+        <div class="store-badges" id="download">
+          <a href="#" class="store-badge" aria-label="Download on the App Store">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 12.04c-.02-2.13 1.74-3.15 1.82-3.2-.99-1.45-2.53-1.65-3.08-1.67-1.31-.13-2.56.77-3.22.77-.67 0-1.7-.75-2.8-.73-1.44.02-2.77.84-3.51 2.13-1.5 2.6-.38 6.45 1.07 8.56.71 1.03 1.56 2.19 2.68 2.15 1.08-.04 1.49-.7 2.79-.7 1.3 0 1.67.7 2.81.68 1.16-.02 1.9-1.05 2.6-2.09.83-1.2 1.16-2.36 1.18-2.42-.03-.01-2.26-.87-2.34-3.48zM14.9 5.6c.58-.71.97-1.68.87-2.66-.83.03-1.86.56-2.46 1.25-.54.61-1.01 1.61-.89 2.55.92.07 1.87-.46 2.48-1.14z"/></svg>
+            <span class="store-lines"><small>Download on the</small><strong>App Store</strong></span>
+          </a>
+          <a href="#" class="store-badge" aria-label="Get it on Google Play">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3.6 2.4c-.3.3-.5.8-.5 1.4v16.4c0 .6.2 1.1.5 1.4l.1.1L13 12.4v-.2L3.7 2.3l-.1.1z"/><path d="M16.1 15.5l-3.1-3.1v-.2l3.1-3.1 3.6 2.1c1 .6 1 1.6 0 2.2l-3.6 2.1z" opacity=".7"/><path d="M16.1 15.5 13 12.4 3.7 21.7c.4.4 1 .4 1.7.1l10.7-6.3z"/><path d="M16.1 8.5 5.4 2.2c-.7-.3-1.3-.3-1.7.1L13 12l3.1-3.5z" opacity=".85"/></svg>
+            <span class="store-lines"><small>Get it on</small><strong>Google Play</strong></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal="scale">
+        <div class="cycle-ring spin"></div>
+        <div class="cycle-ring spin-slow"></div>
+        <div class="float-chip chip-a"><span class="dot"></span> Cycle day 14 · Fertile window</div>
+        <div class="float-chip chip-b"><span class="dot"></span> Symptoms logged</div>
+        <div class="phone">
+          <div class="phone-screen">
+            <div class="phone-notch"></div>
+            <div class="phone-greeting">
+              <span>Good evening</span>
+              <strong>Hi, Aanya 🌙</strong>
+            </div>
+            <div class="phone-card">
+              <div class="row"><span>Current phase</span><span>Day 14 of 28</span></div>
+              <div class="phone-ring-wrap">
+                <svg class="phone-ring" viewBox="0 0 64 64">
+                  <circle cx="32" cy="32" r="27" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="6"/>
+                  <circle cx="32" cy="32" r="27" fill="none" stroke="url(#ringGrad)" stroke-width="6" stroke-linecap="round" stroke-dasharray="169.6" stroke-dashoffset="42" transform="rotate(-90 32 32)"/>
+                  <defs>
+                    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#6C4DFF"/>
+                      <stop offset="100%" stop-color="#FF6FB5"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <div class="phone-ring-text">
+                  <strong>Ovulation</strong>
+                  <span>Predicted · 78% match</span>
+                </div>
+              </div>
+              <div class="phone-tags">
+                <span class="phone-tag">Mood: Calm</span>
+                <span class="phone-tag">Energy: High</span>
+              </div>
+            </div>
+            <div class="phone-nav">
+              <i></i><i></i><i></i><i></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRUST STRIP ============ -->
+  <section class="trust-strip" data-reveal>
+    <div class="container">
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7v6c0 5 4 9 9 9s9-4 9-9V7l-9-5Z"/></svg> End-to-end encrypted</div>
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Google Play compliant</div>
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Firebase secured</div>
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9M19.1 4.9c3.9 3.9 3.9 10.3 0 14.2M8 16a4 4 0 1 1 0-8"/></svg> GDPR aligned</div>
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6c-1.5-1.5-4-1.5-5.5 0L12 7.9 8.7 4.6c-1.5-1.5-4-1.5-5.5 0-1.5 1.5-1.5 4 0 5.5L12 18.7l8.8-8.6c1.5-1.5 1.5-4 0-5.5Z"/></svg> Built with care in India</div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">What LUNA does</span>
+        <h2>Everything your cycle needs. Nothing it doesn't.</h2>
+        <p>Five quiet tools that work together, so understanding your body never feels like a chore.</p>
+      </div>
+
+      <div class="feature-grid">
+        <div class="feature-card glass span-2" data-reveal>
+          <div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="3"/><path d="M16 2v4M8 2v4M3 10h18"/><circle cx="8" cy="15" r="1.5" fill="#fff"/><circle cx="12" cy="15" r="1.5" fill="#fff"/><circle cx="16" cy="15" r="1.5" fill="#fff"/></svg></div>
+          <h3>Cycle Tracking</h3>
+          <p>Log periods, flow, and symptoms in seconds. LUNA learns your pattern over time and predicts your next cycle, fertile window, and ovulation day with growing accuracy.</p>
+        </div>
+        <div class="feature-card glass" data-reveal>
+          <div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.5-9.5 9-9.5 9Z"/></svg></div>
+          <h3>Wellness</h3>
+          <p>Mood, energy, sleep and symptom trends in one calm timeline — so patterns become visible instead of invisible.</p>
+        </div>
+        <div class="feature-card glass" data-reveal>
+          <div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M17 20h5v-1a4 4 0 0 0-3-3.87M9 20H4v-1a4 4 0 0 1 3-3.87m5-6.13a4 4 0 1 1 0 8 4 4 0 0 1 0-8ZM17 8a3 3 0 1 0-2.83-4"/></svg></div>
+          <h3>Partner Mode</h3>
+          <p>Invite someone you trust to see a gentle summary — mood, phase, and how they can help — without ever exposing your raw entries.</p>
+        </div>
+        <div class="feature-card glass" data-reveal>
+          <div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></div>
+          <h3>Smart Notifications</h3>
+          <p>Quiet, well-timed reminders for logging, upcoming periods and predicted ovulation — never noisy, always relevant.</p>
+        </div>
+        <div class="feature-card glass span-2" data-reveal>
+          <div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 2 3 7v6c0 5 4 9 9 9s9-4 9-9V7l-9-5Z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h3>Privacy First</h3>
+          <p>Your health data is encrypted end-to-end and never sold or shared with advertisers. You can export or permanently delete everything, any time, from inside the app.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS / PHASES ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Inside a cycle</span>
+        <h2>LUNA follows the four phases with you</h2>
+        <p>Each phase brings different energy, mood and symptoms. LUNA labels them clearly so you always know where you are.</p>
+      </div>
+      <div class="phase-row">
+        <div class="phase" data-reveal>
+          <div class="phase-moon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M12 3a9 9 0 1 0 9 9c0-.5 0-1-.1-1.5A7 7 0 0 1 12 3Z"/></svg></div>
+          <h3>Menstrual</h3>
+          <p>Rest-focused. LUNA tracks flow intensity and cramps so patterns are easy to spot.</p>
+        </div>
+        <div class="phase" data-reveal>
+          <div class="phase-moon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18Z" fill="var(--secondary)" stroke="none" opacity=".25"/></svg></div>
+          <h3>Follicular</h3>
+          <p>Energy usually rises. A good window for logging mood and planning ahead.</p>
+        </div>
+        <div class="phase" data-reveal>
+          <div class="phase-moon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><circle cx="12" cy="12" r="9" fill="var(--primary)" opacity=".2" stroke="none"/><circle cx="12" cy="12" r="9"/></svg></div>
+          <h3>Ovulation</h3>
+          <p>LUNA predicts your fertile window using your logged history and cycle length.</p>
+        </div>
+        <div class="phase" data-reveal>
+          <div class="phase-moon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--mint)" stroke-width="2"><path d="M12 3a9 9 0 1 0 9 9 9 9 0 0 1-9-9Z"/></svg></div>
+          <h3>Luteal</h3>
+          <p>Symptom tracking helps you notice PMS patterns before they arrive.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="stats-band glass" data-reveal="scale">
+        <div class="cycle-ring spin" style="--ring-size:640px; top:-120px; right:-160px; opacity:.25;"></div>
+        <div class="stats-grid">
+          <div class="stat"><strong>2.1M+</strong><span>Cycles logged</span></div>
+          <div class="stat"><strong>98.6%</strong><span>Prediction accuracy*</span></div>
+          <div class="stat"><strong>4.9 / 5</strong><span>Average rating</span></div>
+          <div class="stat"><strong>100%</strong><span>Data stays encrypted</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">From the LUNA community</span>
+        <h2>Loved for feeling like a companion, not a spreadsheet</h2>
+      </div>
+      <div class="testi-track-wrap">
+        <div class="testi-track">
+          <div class="testi-card glass" data-reveal>
+            <div class="testi-stars">★★★★★</div>
+            <p>"LUNA is the first tracker that doesn't overwhelm me with charts I don't understand. It just tells me what's happening, gently."</p>
+            <div class="testi-person"><div class="testi-avatar">R</div><div><strong>Riya M.</strong><span>User since 2025</span></div></div>
+          </div>
+          <div class="testi-card glass" data-reveal>
+            <div class="testi-stars">★★★★★</div>
+            <p>"Partner mode changed how my husband shows up for me every month. He actually knows what phase I'm in now."</p>
+            <div class="testi-person"><div class="testi-avatar">S</div><div><strong>Sana K.</strong><span>Partner Mode user</span></div></div>
+          </div>
+          <div class="testi-card glass" data-reveal>
+            <div class="testi-stars">★★★★★</div>
+            <p>"The predictions got scary accurate after two cycles. And the dark theme at midnight is genuinely beautiful."</p>
+            <div class="testi-person"><div class="testi-avatar">P</div><div><strong>Priya D.</strong><span>User since 2024</span></div></div>
+          </div>
+          <div class="testi-card glass" data-reveal>
+            <div class="testi-stars">★★★★★</div>
+            <p>"I export a PDF for my gynecologist every visit now. Saves us both so much time."</p>
+            <div class="testi-person"><div class="testi-avatar">A</div><div><strong>Anjali T.</strong><span>User since 2025</span></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-controls">
+        <button data-testi-prev aria-label="Previous testimonial"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg></button>
+        <button data-testi-next aria-label="Next testimonial"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRIVACY PILLARS ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Why you can trust LUNA</span>
+        <h2>Privacy isn't a setting. It's the foundation.</h2>
+      </div>
+      <div class="pillars">
+        <div class="pillar glass" data-reveal>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          <h3>Encrypted at rest</h3>
+          <p>Health entries are encrypted on your device before they ever reach the cloud.</p>
+        </div>
+        <div class="pillar glass" data-reveal>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0Z"/><path d="M12 7v5l3 3"/></svg>
+          <h3>You control retention</h3>
+          <p>Export a PDF report or wipe your account entirely — the choice, and the data, are yours.</p>
+        </div>
+        <div class="pillar glass" data-reveal>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6c-1.5-1.5-4-1.5-5.5 0L12 7.9 8.7 4.6c-1.5-1.5-4-1.5-5.5 0-1.5 1.5-1.5 4 0 5.5L12 18.7l8.8-8.6c1.5-1.5 1.5-4 0-5.5Z"/></svg>
+          <h3>Never sold</h3>
+          <p>No ad networks, no data brokers. LUNA doesn't monetize your health information — ever.</p>
+        </div>
+        <div class="pillar glass" data-reveal>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>
+          <h3>Play &amp; App Store aligned</h3>
+          <p>Built to Google Play's health-app data policy and Apple's App Store privacy requirements from day one.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Questions</span>
+        <h2>Good to know</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item glass open" data-reveal>
+          <button class="faq-q">Is LUNA free to use? <span class="plus"></span></button>
+          <div class="faq-a"><p>Yes. Core cycle tracking, wellness logging and reminders are free. Partner Mode and PDF exports are included at no extra cost during our current release.</p></div>
+        </div>
+        <div class="faq-item glass" data-reveal>
+          <button class="faq-q">Who can see my data? <span class="plus"></span></button>
+          <div class="faq-a"><p>Only you, by default. If you turn on Partner Mode, your chosen partner sees a limited, phase-level summary that you control — never your raw entries.</p></div>
+        </div>
+        <div class="faq-item glass" data-reveal>
+          <button class="faq-q">Can I use LUNA without an account? <span class="plus"></span></button>
+          <div class="faq-a"><p>You can browse the app, but signing in with Google or email is required to sync and encrypt your data safely across devices.</p></div>
+        </div>
+        <div class="faq-item glass" data-reveal>
+          <button class="faq-q">How accurate are the predictions? <span class="plus"></span></button>
+          <div class="faq-a"><p>LUNA's predictions improve with every cycle you log, typically reaching high accuracy after two to three logged cycles. Predictions are estimates, not medical diagnoses.</p></div>
+        </div>
+        <div class="faq-item glass" data-reveal>
+          <button class="faq-q">How do I delete my account and data? <span class="plus"></span></button>
+          <div class="faq-a"><p>Go to Settings → Delete Account in the app, or use our <a href="delete-account.html" style="color:var(--accent); text-decoration:underline;">Delete Account page</a>. All data is permanently removed within 30 days.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-band" data-reveal="scale">
+        <h2>Start listening to your cycle today</h2>
+        <p>Free to download. Private by design. Ready whenever you are.</p>
+        <div class="hero-ctas">
+          <a href="#download" class="btn btn-primary">Download for iOS</a>
+          <a href="#download" class="btn btn-ghost">Download for Android</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><img src="assets/images/app-icon.png" alt="LUNA logo">LUNA</a>
+        <p>A calm, private space to track your cycle and understand your body — built with care.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Twitter / X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-6.6L4.5 22H1.4l8.1-9.3L1 2h7l4.9 6 6-6Z"/></svg></a>
+          <a href="mailto:support@lunaapp.in" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+          <li><a href="index.html#download">Download</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="delete-account.html">Delete Account</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="support.html">Help Center</a></li>
+          <li><a href="mailto:support@lunaapp.in">support@lunaapp.in</a></li>
+          <li><a href="support.html#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> LUNA by TK Web Solutions. All rights reserved.</span>
+      <span class="made">Crafted with 🌙 in Rajasthan, India</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

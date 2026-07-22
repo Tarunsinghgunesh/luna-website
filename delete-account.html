@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delete Account — LUNA</title>
+<meta name="description" content="Request permanent deletion of your LUNA account and all associated Firebase data. Learn what gets deleted, the timeline, and your options.">
+<link rel="canonical" href="https://luna.tkwebsolutions.in/delete-account.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Delete Account — LUNA">
+<meta property="og:description" content="Request permanent deletion of your LUNA account and data.">
+<meta property="og:url" content="https://luna.tkwebsolutions.in/delete-account.html">
+<meta property="og:image" content="https://luna.tkwebsolutions.in/assets/icons/icon-512.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon.png">
+<link rel="apple-touch-icon" href="assets/icons/icon-180.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0F1021">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="aurora"></div>
+<div class="noise"></div>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand"><img src="assets/images/app-icon.png" alt="LUNA logo">LUNA</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="privacy-policy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+      <a href="delete-account.html" class="active">Delete Account</a>
+      <a href="index.html#download" class="btn btn-primary btn-sm">Download</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" aria-label="Toggle dark and light theme" aria-pressed="false">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </button>
+      <a href="index.html#download" class="btn btn-primary btn-sm desktop-only">Get the App</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Account</span>
+      <h1>Delete your <span class="text-gradient">LUNA account</span></h1>
+      <p>We're sorry to see you go. This page permanently and irreversibly deletes your account and every piece of data tied to it.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="legal-layout">
+
+        <aside class="legal-toc glass">
+          <h4>On this page</h4>
+          <ul>
+            <li><a href="#form">Deletion request</a></li>
+            <li><a href="#what-happens">What gets deleted</a></li>
+            <li><a href="#timeline">Timeline</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </aside>
+
+        <div>
+          <article class="legal-content glass" id="form" style="margin-bottom:28px;">
+            <h2 style="margin-bottom:6px;"><span class="num">1</span>Request account deletion</h2>
+            <p style="margin-bottom:26px;">Fill in the details below exactly as they appear on your LUNA account. You'll receive a confirmation email before deletion is finalized.</p>
+
+            <form class="form-grid" data-luna-form>
+              <div class="form-field full">
+                <label for="del-email">Account email <span aria-hidden="true">*</span></label>
+                <input type="email" id="del-email" name="email" placeholder="you@example.com" required>
+              </div>
+              <div class="form-field full">
+                <label for="del-uid">Firebase UID <span class="hint">(Settings → Account → User ID)</span></label>
+                <input type="text" id="del-uid" name="uid" placeholder="e.g. 8f2a91Xk...">
+              </div>
+              <div class="form-field full">
+                <label for="del-reason">Reason for leaving <span class="hint">(optional — helps us improve)</span></label>
+                <select id="del-reason" name="reason">
+                  <option value="">Select a reason</option>
+                  <option>No longer need a cycle tracker</option>
+                  <option>Privacy concerns</option>
+                  <option>Switching to another app</option>
+                  <option>Too many notifications</option>
+                  <option>Found a bug or issue</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-field full">
+                <label for="del-notes">Anything you'd like us to know?</label>
+                <textarea id="del-notes" name="notes" placeholder="Optional feedback..."></textarea>
+              </div>
+              <div class="form-field full" style="margin-bottom:0;">
+                <div class="checkbox-field">
+                  <input type="checkbox" id="del-confirm" required>
+                  <label for="del-confirm">I understand this permanently deletes my account, cycle history, and all associated data, and this action cannot be undone.</label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit deletion request</button>
+                <div class="form-note">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                  Submitted over a secure connection. We'll email you to confirm before deleting anything.
+                </div>
+              </div>
+            </form>
+
+            <div class="form-success">
+              <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m5 13 4 4L19 7"/></svg></div>
+              <h3>Request received</h3>
+              <p>Check your inbox for a confirmation email. Your data will be permanently deleted within 30 days of confirmation.</p>
+            </div>
+          </article>
+
+          <article class="legal-content glass" id="what-happens" style="margin-bottom:28px;">
+            <h2><span class="num">2</span>What gets deleted</h2>
+            <p>Once your deletion is confirmed, we permanently remove:</p>
+            <ul>
+              <li><strong>Firebase Authentication</strong> — your login record, including linked Google Sign-In.</li>
+              <li><strong>Firestore</strong> — every cycle entry, symptom log, mood note, and profile field.</li>
+              <li><strong>Firebase Storage</strong> — any attached files or exported reports stored in your account.</li>
+              <li><strong>Partner Mode connections</strong> — any active link to a partner account is severed immediately.</li>
+              <li><strong>Notification tokens</strong> — device tokens used for reminders are revoked.</li>
+            </ul>
+            <p>Anonymized, aggregate analytics that cannot be traced back to you (such as overall app crash rates) may be retained for product improvement.</p>
+          </article>
+
+          <article class="legal-content glass" id="timeline">
+            <h2 style="margin-bottom:26px;"><span class="num">3</span>Deletion timeline</h2>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-time">Day 0</span>
+                <div class="timeline-dot-col"><span class="timeline-dot"></span><span class="timeline-line"></span></div>
+                <div class="timeline-body"><h3>Request submitted</h3><p>You submit the form above or tap Delete Account inside the app.</p></div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-time">Within 24h</span>
+                <div class="timeline-dot-col"><span class="timeline-dot"></span><span class="timeline-line"></span></div>
+                <div class="timeline-body"><h3>Confirmation email sent</h3><p>You'll receive an email to confirm the request actually came from you.</p></div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-time">Day 1–30</span>
+                <div class="timeline-dot-col"><span class="timeline-dot"></span><span class="timeline-line"></span></div>
+                <div class="timeline-body"><h3>Data permanently erased</h3><p>All records are wiped from Firebase Authentication, Firestore, and Storage.</p></div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-time">Day 30</span>
+                <div class="timeline-dot-col"><span class="timeline-dot"></span></div>
+                <div class="timeline-body"><h3>Deletion complete</h3><p>Your account can no longer be recovered. You're welcome back anytime as a new user.</p></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="legal-content glass" id="faq">
+            <h2 style="margin-bottom:20px;"><span class="num">4</span>FAQ</h2>
+            <div class="faq-list" style="max-width:none;">
+              <div class="faq-item glass open">
+                <button class="faq-q">Can I recover my account after deletion? <span class="plus"></span></button>
+                <div class="faq-a"><p>No. Once the 30-day window closes, your cycle history and account cannot be restored. Consider exporting a PDF report first from Settings → Export Data.</p></div>
+              </div>
+              <div class="faq-item glass">
+                <button class="faq-q">Can I cancel a deletion request? <span class="plus"></span></button>
+                <div class="faq-a"><p>Yes, within the 30-day window. Email support@lunaapp.in from your account address and we'll cancel the request.</p></div>
+              </div>
+              <div class="faq-item glass">
+                <button class="faq-q">Does deleting the app delete my account? <span class="plus"></span></button>
+                <div class="faq-a"><p>No. Uninstalling LUNA from your phone does not delete your account or data — you must submit a deletion request via this page or in-app Settings.</p></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><img src="assets/images/app-icon.png" alt="LUNA logo">LUNA</a>
+        <p>A calm, private space to track your cycle and understand your body — built with care.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Twitter / X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-6.6L4.5 22H1.4l8.1-9.3L1 2h7l4.9 6 6-6Z"/></svg></a>
+          <a href="mailto:support@lunaapp.in" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul><li><a href="index.html#features">Features</a></li><li><a href="index.html#faq">FAQ</a></li><li><a href="index.html#download">Download</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Service</a></li><li><a href="delete-account.html">Delete Account</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul><li><a href="support.html">Help Center</a></li><li><a href="mailto:support@lunaapp.in">support@lunaapp.in</a></li><li><a href="support.html#contact">Contact Us</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> LUNA by TK Web Solutions. All rights reserved.</span>
+      <span class="made">Crafted with 🌙 in Rajasthan, India</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
