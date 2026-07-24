@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
@@ -28,6 +29,9 @@
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#0F1021">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link rel="stylesheet" href="css/style.css">
 
 <script type="application/ld+json">
@@ -43,11 +47,6 @@
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "USD"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "ratingCount": "2140"
   },
   "author": {
     "@type": "Person",
@@ -82,7 +81,7 @@
 <header class="site-header">
   <div class="container">
     <a href="index.html" class="brand">
-      <img src="assets/images/app-icon.png" alt="LUNA logo">
+      <img src="assets/images/logo.png" alt="LUNA logo" width="34" height="34" loading="eager" decoding="async" onerror="this.style.display='none'">
       LUNA
     </a>
     <nav class="nav-links" id="navLinks">
@@ -290,55 +289,78 @@
     </div>
   </section>
 
-  <!-- ============ STATS ============ -->
+  <!-- ============ EARLY ACCESS / CREDIBILITY ============ -->
   <section class="section">
     <div class="container">
-      <div class="stats-band glass" data-reveal="scale">
-        <div class="cycle-ring spin" style="--ring-size:640px; top:-120px; right:-160px; opacity:.25;"></div>
-        <div class="stats-grid">
-          <div class="stat"><strong>2.1M+</strong><span>Cycles logged</span></div>
-          <div class="stat"><strong>98.6%</strong><span>Prediction accuracy*</span></div>
-          <div class="stat"><strong>4.9 / 5</strong><span>Average rating</span></div>
-          <div class="stat"><strong>100%</strong><span>Data stays encrypted</span></div>
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Where things stand</span>
+        <h2>Early, honest, and built in the open</h2>
+        <p>No inflated numbers, no purchased reviews — just where LUNA actually is right now.</p>
+      </div>
+      <div class="pillars">
+        <div class="pillar glass" data-reveal>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2c2.5 3 4 6.5 4 10a4 4 0 0 1-8 0c0-3.5 1.5-7 4-10Z"/><path d="M9 18c0 1.5 1.3 3 3 3s3-1.5 3-3"/></svg>
+          <h3>Early Access</h3>
+          <p>LUNA is currently in early access as we refine the experience with real feedback before a public release.</p>
+        </div>
+        <div class="pillar glass" data-reveal>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+          <h3>Launching Soon</h3>
+          <p>Google Play and App Store availability is coming soon. Join early to help shape the app before launch.</p>
+        </div>
+        <div class="pillar glass" data-reveal>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 11V7a4 4 0 0 0-8 0v4M5 11h14l-1 10H6L5 11Z"/></svg>
+          <h3>Trusted by Local Businesses</h3>
+          <p>LUNA is built by TK Web Solutions, the same studio local businesses in Rajasthan rely on for their websites and apps.</p>
+        </div>
+        <div class="pillar glass" data-reveal>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7v6c0 5 4 9 9 9s9-4 9-9V7l-9-5Z"/><path d="M9 12l2 2 4-4"/></svg>
+          <h3>Privacy-First Wellness</h3>
+          <p>Built around one rule from day one: your cycle data is encrypted, never sold, and never used to manufacture fake growth metrics.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============ TESTIMONIALS ============ -->
+  <!-- ============ SCREENSHOTS ============ -->
   <section class="section">
     <div class="container">
       <div class="section-head" data-reveal>
-        <span class="eyebrow">From the LUNA community</span>
-        <h2>Loved for feeling like a companion, not a spreadsheet</h2>
+        <span class="eyebrow">A closer look</span>
+        <h2>See LUNA in action</h2>
+        <p>A few screens from inside the app — calm layouts, clear insights, nothing to decode.</p>
       </div>
-      <div class="testi-track-wrap">
-        <div class="testi-track">
-          <div class="testi-card glass" data-reveal>
-            <div class="testi-stars">★★★★★</div>
-            <p>"LUNA is the first tracker that doesn't overwhelm me with charts I don't understand. It just tells me what's happening, gently."</p>
-            <div class="testi-person"><div class="testi-avatar">R</div><div><strong>Riya M.</strong><span>User since 2025</span></div></div>
-          </div>
-          <div class="testi-card glass" data-reveal>
-            <div class="testi-stars">★★★★★</div>
-            <p>"Partner mode changed how my husband shows up for me every month. He actually knows what phase I'm in now."</p>
-            <div class="testi-person"><div class="testi-avatar">S</div><div><strong>Sana K.</strong><span>Partner Mode user</span></div></div>
-          </div>
-          <div class="testi-card glass" data-reveal>
-            <div class="testi-stars">★★★★★</div>
-            <p>"The predictions got scary accurate after two cycles. And the dark theme at midnight is genuinely beautiful."</p>
-            <div class="testi-person"><div class="testi-avatar">P</div><div><strong>Priya D.</strong><span>User since 2024</span></div></div>
-          </div>
-          <div class="testi-card glass" data-reveal>
-            <div class="testi-stars">★★★★★</div>
-            <p>"I export a PDF for my gynecologist every visit now. Saves us both so much time."</p>
-            <div class="testi-person"><div class="testi-avatar">A</div><div><strong>Anjali T.</strong><span>User since 2025</span></div></div>
-          </div>
+      <div class="feature-grid">
+        <div class="feature-card glass shot-card" data-reveal>
+          <img class="shot-img" src="assets/screenshots/home.png" alt="LUNA home screen showing current cycle phase" width="390" height="844" loading="lazy" decoding="async" onerror="this.closest('.shot-card').style.display='none'">
+          <h3>Home</h3>
+          <p>Your current phase and today's snapshot, at a glance.</p>
         </div>
-      </div>
-      <div class="testi-controls">
-        <button data-testi-prev aria-label="Previous testimonial"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg></button>
-        <button data-testi-next aria-label="Next testimonial"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg></button>
+        <div class="feature-card glass shot-card" data-reveal>
+          <img class="shot-img" src="assets/screenshots/calendar.png" alt="LUNA calendar screen with cycle days marked" width="390" height="844" loading="lazy" decoding="async" onerror="this.closest('.shot-card').style.display='none'">
+          <h3>Calendar</h3>
+          <p>Log and review any day with a full editable history.</p>
+        </div>
+        <div class="feature-card glass shot-card" data-reveal>
+          <img class="shot-img" src="assets/screenshots/wellness.png" alt="LUNA wellness tracking screen" width="390" height="844" loading="lazy" decoding="async" onerror="this.closest('.shot-card').style.display='none'">
+          <h3>Wellness</h3>
+          <p>Mood, energy and symptoms recorded in a few taps.</p>
+        </div>
+        <div class="feature-card glass shot-card" data-reveal>
+          <img class="shot-img" src="assets/screenshots/insights.png" alt="LUNA insights and predictions screen" width="390" height="844" loading="lazy" decoding="async" onerror="this.closest('.shot-card').style.display='none'">
+          <h3>Insights</h3>
+          <p>Patterns and predictions built from your own logged history.</p>
+        </div>
+        <div class="feature-card glass shot-card" data-reveal>
+          <img class="shot-img" src="assets/screenshots/profile.png" alt="LUNA profile and settings screen" width="390" height="844" loading="lazy" decoding="async" onerror="this.closest('.shot-card').style.display='none'">
+          <h3>Profile</h3>
+          <p>Manage your account, exports and privacy settings.</p>
+        </div>
+        <div class="feature-card glass shot-card" data-reveal>
+          <img class="shot-img" src="assets/screenshots/partner.png" alt="LUNA partner mode screen" width="390" height="844" loading="lazy" decoding="async" onerror="this.closest('.shot-card').style.display='none'">
+          <h3>Partner Mode</h3>
+          <p>A limited, considerate summary shared with someone you trust.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -387,8 +409,12 @@
       <div class="dev-card glass" data-reveal="scale">
         <div class="dev-photo-col">
           <div class="dev-photo">
-  <img src="assets/images/founder.jpg" alt="Tarun Singh — Founder, TK Web Solutions" style="width:100%; height:100%; object-fit:cover; border-radius:32px;">
-</div> 
+            <img src="assets/images/founder.jpg" alt="Tarun Singh, Founder of TK Web Solutions" width="200" height="200" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover;border-radius:32px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="placeholder-mark" style="display:none;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+              <span>Founder photo</span>
+            </div>
+          </div>
           <div>
             <div class="dev-name">Tarun Singh</div>
             <div class="dev-role">Founder &amp; Developer</div>
@@ -398,12 +424,12 @@
             Bharatpur, Rajasthan, India
           </div>
           <div class="social-row">
-            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+            <a href="https://www.instagram.com/tkwebsolutions_official/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
             <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C21.4 8.65 23 11 23 14.8V21h-4v-5.4c0-1.3-.02-2.97-1.81-2.97-1.82 0-2.1 1.42-2.1 2.87V21h-4V9Z"/></svg></a>
-            <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.9-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.94.36.31.68.92.68 1.86v2.76c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg></a>
-            <a href="#" aria-label="Website"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg></a>
-            <a href="#" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
-            <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2Zm5.6 14.3c-.2.6-1.3 1.2-1.9 1.3-.5.1-1.1.1-1.7-.1-.4-.1-.9-.3-1.6-.6-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.4.7-.4h.5c.2 0 .4 0 .6.5.2.6.7 1.9.8 2 .1.2.1.4 0 .6-.1.2-.1.3-.3.5-.1.2-.3.4-.4.5-.2.2-.3.4-.1.7.2.3.9 1.5 1.9 2.4 1.3 1.2 2.4 1.5 2.7 1.7.3.2.5.1.7-.1.2-.2.8-.9 1-1.3.2-.3.4-.3.7-.2.3.1 1.8.9 2.1 1 .3.2.5.2.6.3.1.2.1.8-.1 1.4Z"/></svg></a>
+            <a href="https://github.com/Tarunsinghgunesh/TK-Web-Solutions" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.9-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.94.36.31.68.92.68 1.86v2.76c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg></a>
+            <a href="https://tkwebsolutions.in" target="_blank" rel="noopener" aria-label="Website"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg></a>
+            <a href="mailto:tkwebsolution1301@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+            <a href="https://wa.me/919079368240" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2Zm5.6 14.3c-.2.6-1.3 1.2-1.9 1.3-.5.1-1.1.1-1.7-.1-.4-.1-.9-.3-1.6-.6-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.4.7-.4h.5c.2 0 .4 0 .6.5.2.6.7 1.9.8 2 .1.2.1.4 0 .6-.1.2-.1.3-.3.5-.1.2-.3.4-.4.5-.2.2-.3.4-.1.7.2.3.9 1.5 1.9 2.4 1.3 1.2 2.4 1.5 2.7 1.7.3.2.5.1.7-.1.2-.2.8-.9 1-1.3.2-.3.4-.3.7-.2.3.1 1.8.9 2.1 1 .3.2.5.2.6.3.1.2.1.8-.1 1.4Z"/></svg></a>
           </div>
         </div>
 
@@ -476,15 +502,15 @@
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
-        <a href="index.html" class="brand"><img src="assets/images/app-icon.png" alt="LUNA logo">LUNA</a>
+        <a href="index.html" class="brand"><img src="assets/images/logo.png" alt="LUNA logo" width="34" height="34" loading="lazy" decoding="async" onerror="this.style.display='none'">LUNA</a>
         <p>A calm, private space to track your cycle and understand your body. Built with care by TK Web Solutions.</p>
         <div class="footer-social">
-          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="https://www.instagram.com/tkwebsolutions_official/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
           <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C21.4 8.65 23 11 23 14.8V21h-4v-5.4c0-1.3-.02-2.97-1.81-2.97-1.82 0-2.1 1.42-2.1 2.87V21h-4V9Z"/></svg></a>
-          <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.9-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.94.36.31.68.92.68 1.86v2.76c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg></a>
-          <a href="#" aria-label="Website"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg></a>
-          <a href="#" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
-          <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2Zm5.6 14.3c-.2.6-1.3 1.2-1.9 1.3-.5.1-1.1.1-1.7-.1-.4-.1-.9-.3-1.6-.6-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.4.7-.4h.5c.2 0 .4 0 .6.5.2.6.7 1.9.8 2 .1.2.1.4 0 .6-.1.2-.1.3-.3.5-.1.2-.3.4-.4.5-.2.2-.3.4-.1.7.2.3.9 1.5 1.9 2.4 1.3 1.2 2.4 1.5 2.7 1.7.3.2.5.1.7-.1.2-.2.8-.9 1-1.3.2-.3.4-.3.7-.2.3.1 1.8.9 2.1 1 .3.2.5.2.6.3.1.2.1.8-.1 1.4Z"/></svg></a>
+          <a href="https://github.com/Tarunsinghgunesh/TK-Web-Solutions" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.9-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.94.36.31.68.92.68 1.86v2.76c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg></a>
+          <a href="https://tkwebsolutions.in" target="_blank" rel="noopener" aria-label="Website"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg></a>
+          <a href="mailto:tkwebsolution1301@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+          <a href="https://wa.me/919079368240" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2Zm5.6 14.3c-.2.6-1.3 1.2-1.9 1.3-.5.1-1.1.1-1.7-.1-.4-.1-.9-.3-1.6-.6-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.4.7-.4h.5c.2 0 .4 0 .6.5.2.6.7 1.9.8 2 .1.2.1.4 0 .6-.1.2-.1.3-.3.5-.1.2-.3.4-.4.5-.2.2-.3.4-.1.7.2.3.9 1.5 1.9 2.4 1.3 1.2 2.4 1.5 2.7 1.7.3.2.5.1.7-.1.2-.2.8-.9 1-1.3.2-.3.4-.3.7-.2.3.1 1.8.9 2.1 1 .3.2.5.2.6.3.1.2.1.8-.1 1.4Z"/></svg></a>
         </div>
       </div>
       <div class="footer-col">
@@ -519,6 +545,6 @@
   </div>
 </footer>
 
-<script src="js/main.js"></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>
