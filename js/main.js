@@ -103,16 +103,6 @@
     });
   });
 
-  /* ---------- Testimonial carousel ---------- */
-  const track = document.querySelector('.testi-track');
-  if (track) {
-    const prevBtn = document.querySelector('[data-testi-prev]');
-    const nextBtn = document.querySelector('[data-testi-next]');
-    const scrollAmount = () => (track.querySelector('.testi-card')?.offsetWidth || 340) + 20;
-    nextBtn?.addEventListener('click', () => track.scrollBy({ left: scrollAmount(), behavior: 'smooth' }));
-    prevBtn?.addEventListener('click', () => track.scrollBy({ left: -scrollAmount(), behavior: 'smooth' }));
-  }
-
   /* ---------- Generic form success (delete-account / support) ---------- */
   document.querySelectorAll('form[data-luna-form]').forEach((form) => {
     form.addEventListener('submit', (e) => {
