@@ -510,6 +510,18 @@ html[data-theme="light"] .float-chip{ color: var(--ink); }
 .feature-card p{ font-size: 14.5px; }
 .feature-card.span-2{ grid-column: span 2; }
 
+.shot-card .shot-img{
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  border-radius: var(--radius-m);
+  border: 1px solid var(--border-soft);
+  margin-bottom: 20px;
+  background: var(--bg-elevated);
+}
+.shot-card h3{ font-size: 15px; margin-bottom: 6px; }
+.shot-card p{ font-size: 13.5px; margin: 0; }
+
 /* ---------- Stats ---------- */
 .stats-band{
   border-radius: var(--radius-xl);
